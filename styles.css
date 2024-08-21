@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, 'Courier New', Courier, monospace;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    grid-template-rows: 2fr minmax(300px, 100%);
+    gap: 5px;
+}
+
+.sidebar {
+    background: lightblue;
+    grid-row: 1 / 3;
+}
