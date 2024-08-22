@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
+    <title>Admin Dashboard Odin</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,10 +35,14 @@
         </div>
         <header class="header">
             <input type="text" id="search-box" name="search-box">
-            <span>John Wick</span>
-            <div class="username">
-                <p>Hello there,</p>
-                <p>John Wick (@Johnwick3000)</p>
+            <div class="username-upper">
+                <img src="img/icon-placeholder.png" alt="icon-placeholder" width="40px">
+                <span>John Wick</span>
+            </div>
+            <div class="username-bottom">
+                <img src="img/icon-placeholder.png" alt="icon-placeholder" width="65px">
+                <span class="hello">Hello there, <br></span>
+                <span class="hello-username">John Wick (@Johnwick3000)</span>
             </div>
             <div class="buttons">
                     <button>New</button>
@@ -49,59 +53,73 @@
         <main>
             <div class="projects">
                 <h2>Your Projects</h2>
-                <div class="content">
-                    <p>Super Cool Project</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa assumenda ullam in perferendis, veniam cumque dolor consequatur, repellat nulla harum beatae aliquam quae. Quasi accusamus repellendus assumenda, nulla optio sequi?</p>
-                </div>
-                <div class="content">
-                    <p>Less Cool Project</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, molestias odio animi provident voluptatum recusandae in earum perferendis veritatis possimus doloremque quis excepturi, necessitatibus soluta ullam quam eius consequatur exercitationem.</p>
-                </div>
-                <div class="content">
-                    <p>Impossible App</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa assumenda ullam in perferendis, veniam cumque dolor consequatur, repellat nulla harum beatae aliquam quae. Quasi accusamus repellendus assumenda, nulla optio sequi?</p>
-                </div>
-                <div class="content">
-                    <p>Easy Peasy App</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa assumenda ullam in perferendis, veniam cumque dolor consequatur, repellat nulla harum beatae aliquam quae. Quasi accusamus repellendus assumenda, nulla optio sequi?</p>
-                </div>
-                <div class="content">
-                    <p>Ad Blocker</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa assumenda ullam in perferendis, veniam cumque dolor consequatur, repellat nulla harum beatae aliquam quae. Quasi accusamus repellendus assumenda, nulla optio sequi?</p>
-                </div>
-                <div class="content">
-                    <p>Money Maker</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa assumenda ullam in perferendis, veniam cumque dolor consequatur, repellat nulla harum beatae aliquam quae. Quasi accusamus repellendus assumenda, nulla optio sequi?</p>
+                <div class="content-container">
+                    <div class="content">
+                        <p class="content-title">Super Cool Project</p>
+                        <p class="content-main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa assumenda ullam in perferendis, veniam cumque dolor consequatur, repellat nulla harum beatae aliquam quae. Quasi accusamus repellendus assumenda, nulla optio sequi?</p>
+                    </div>
+                    <div class="content">
+                        <p class="content-title">Less Cool Project</p>
+                        <p class="content-main">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, molestias odio animi provident voluptatum recusandae in earum perferendis veritatis possimus doloremque quis excepturi, necessitatibus soluta ullam quam eius consequatur exercitationem.</p>
+                    </div>
+                    <div class="content">
+                        <p class="content-title">Impossible App</p>
+                        <p class="content-main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa assumenda ullam in perferendis, veniam cumque dolor consequatur, repellat nulla harum beatae aliquam quae. Quasi accusamus repellendus assumenda, nulla optio sequi?</p>
+                    </div>
+                    <div class="content">
+                        <p class="content-title">Easy Peasy App</p>
+                        <p class="content-main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa assumenda ullam in perferendis, veniam cumque dolor consequatur, repellat nulla harum beatae aliquam quae. Quasi accusamus repellendus assumenda, nulla optio sequi?</p>
+                    </div>
+                    <div class="content">
+                        <p class="content-title">Ad Blocker</p>
+                        <p class="content-main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa assumenda ullam in perferendis, veniam cumque dolor consequatur, repellat nulla harum beatae aliquam quae. Quasi accusamus repellendus assumenda, nulla optio sequi?</p>
+                    </div>
+                    <div class="content">
+                        <p class="content-title">Money Maker</p>
+                        <p class="content-main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa assumenda ullam in perferendis, veniam cumque dolor consequatur, repellat nulla harum beatae aliquam quae. Quasi accusamus repellendus assumenda, nulla optio sequi?</p>
+                    </div>
                 </div>
             </div>
             <div class="announcement">
                 <h2>Announcements</h2>
-                <div class="announcement-content">
-                    <p>Site Maintenance</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias et repellendus ullam corrupti, laboriosam quos temporibus labore enim quod dolorum officia, doloribus natus distinctio pariatur vel fuga provident, esse sequi.</p>
-                </div>
-                <div class="announcement-content">
-                    <p>Community Share Day</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias et repellendus ullam corrupti, laboriosam quos temporibus labore enim quod dolorum officia, doloribus natus distinctio pariatur vel fuga provident, esse sequi.</p>
-                </div>
-                <div class="announcement-content">
-                    <p>Updated Privacy Policy</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias et repellendus ullam corrupti, laboriosam quos temporibus labore enim quod dolorum officia, doloribus natus distinctio pariatur vel fuga provident, esse sequi.</p>
+                <div class="announcement-container">
+                    <div class="announcement-content">
+                        <div class="announcement-title"><strong>Site Maintenance</strong></div>
+                        <div class="main-announcement">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, alias nihil at quaerat laborum deserunt culpa totam, asperiores, sapiente aliquam libero? Sapiente pariatur iste error nisi illum voluptatum facere rem.</div>
+                    </div>
+                    <div class="announcement-content">
+                        <div class="announcement-title"><strong>Community Share Day</strong></div>
+                        <div class="main-announcement">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias et repellendus ullam corrupti, laboriosam quos temporibus labore enim quod dolorum officia, doloribus natus distinctio pariatur vel fuga provident, esse sequi.</div>
+                    </div>
+                    <div class="announcement-content">
+                        <div class="announcement-title"><strong>Updated Privacy Policy</strong></div>
+                        <div class="main-announcement">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias et repellendus ullam corrupti, laboriosam quos temporibus labore enim quod dolorum officia, doloribus natus distinctio pariatur vel fuga provident, esse sequi.</div>
+                    </div>
                 </div>
             </div>
             <div class="trending">
                 <h2>Trending</h2>
-                <div class="account">
-                    <p>@Tegan</p>
-                    <p>Part-time war criminal</p>
-                </div>
-                <div class="account">
-                    <p>John</p>
-                    <p>Part-time war criminal</p>
-                </div>
-                <div class="account">
-                    <p>John</p>
-                    <p>Part-time war criminal</p>
+                <div class="trending-container">
+                    <div class="account">
+                        <img src="img/icon-user-placeholder.png" alt="user-icon" width="40px">
+                        <p>@Tegan</p>
+                        <p class="account-description">World Peace Builder</p>
+                    </div>
+                    <div class="account">
+                        <img src="img/icon-user-placeholder.png" alt="user-icon" width="40px">
+                        <p>@John</p>
+                        <p class="account-description">Part-time war criminal</p>
+                    </div>
+                    <div class="account">
+                        <img src="img/icon-user-placeholder.png" alt="user-icon" width="40px">
+                        <p>@Bob</p>
+                        <p class="account-description">Part-time war criminal</p>
+                    </div>
+                    <div class="account">
+                        <img src="img/icon-user-placeholder.png" alt="user-icon" width="40px">
+                        <p>@Mark</p>
+                        <p class="account-description">Part-time war criminal</p>
+                    </div>
                 </div>
             </div>
         </main>
