@@ -145,8 +145,8 @@ h2 {
 
 .content-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 300px);
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, 400px);
+    gap: 22px;
 }
 
 .content-container .content {
