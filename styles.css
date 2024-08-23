@@ -7,7 +7,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1.5fr 6fr;
     grid-template-rows: 1fr minmax(300px, 4fr);
 }
 
@@ -26,6 +26,29 @@
 
 .sidebar ul {
     list-style-type: none;
+    padding-bottom: 40px;
+}
+
+.dashboard-logo {
+    display: grid;
+    grid-template-columns: 50px auto;
+    line-height: 40px;
+}
+
+.dashboard-navigation > ul > li {
+    display: grid;
+    grid-template-columns: 50px auto;
+    padding-bottom: 7px;
+    line-height: 25px;
+}
+
+.sidebar-icon {
+    fill: white ;
+    width: 25px;
+}
+
+.dashboard-icon {
+    width: 40px;
 }
 
 .header {
@@ -39,14 +62,24 @@
     box-shadow: 0px 2px 3px gray;
 }
 
+.header-icon {
+    width: 25px;
+}
+
 #search-box {
     border-radius: 18px;
     background: #cbd5e1;
     border: 1px solid lightslategray;
-    width: 420px;
+    width: 500px;
     height: 30px;
     padding-left: 20px;
     border: none;
+}
+
+.search-container {
+    display: flex;
+    align-items:center;
+    gap: 0 20px;
 }
 
 .username-upper {
@@ -121,6 +154,7 @@ h2 {
     background: white;
     border-radius: 12px;
     box-shadow: 0px 2px 3px gray;
+    border-left: 5px solid orange;
 }
 
 .content-title {
@@ -136,6 +170,17 @@ h2 {
     -webkit-line-clamp: 3;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.main-icon-container {
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+    gap: 0 20px;
+}
+
+.content-icon {
+    width: 20px;
 }
 
 .announcement-container {
